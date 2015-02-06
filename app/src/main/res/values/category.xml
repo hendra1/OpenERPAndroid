@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories_array">
+        <item>Credit</item>
+        <item>Cash</item>
+        <item>Income</item>
+        <item>Sales</item>
+        <item>Transfer</item>
+    </string-array>
+</resources>

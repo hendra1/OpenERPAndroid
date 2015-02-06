@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 24.0.2">
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for you can add a `.debug` package suffix in one version and not the other. Therefore, you should *not* hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="    xmlns:oe=&quot;http://schemas.android.com/apk/res/com.openerp&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="C:\Users\ASUS\AndroidstudioProjects\openerp-mobile-crm_lead\app\src\main\res\layout\drawer_item_layout.xml"
+            line="2"
+            column="5"/>
+    </issue>
+
+</issues>

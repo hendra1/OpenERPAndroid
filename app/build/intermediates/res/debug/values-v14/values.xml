@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values-v14/dimens.xml -->
+    <eat-comment/>
+    <dimen name="widget_margin">0dp</dimen>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"/>
+</resources>

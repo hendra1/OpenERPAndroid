@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_cash_flow_sync"
+        android:icon="@drawable/ic_action_sync"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/title_cash_flow_syncronize">
+    </item>
+
+</menu><!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/menu/menu_fragment_cash_flow.xml -->

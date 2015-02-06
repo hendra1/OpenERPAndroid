@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ASUS\AndroidstudioProjects\openerp-mobile-crm_lead\app\libs\pull_swipe_library.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="251891e3cfaf0fc58ac7a7150db797cb7a5200b4">
+        <dex dex="C:\Users\ASUS\AndroidstudioProjects\openerp-mobile-crm_lead\app\build\intermediates\pre-dexed\debug\pull_swipe_library-39b9d197e6aa7f2e84181220ab9e2a1e47a0e74c.jar" />
+    </item>
+    <item
+        jar="C:\Users\ASUS\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\ASUS\AndroidstudioProjects\openerp-mobile-crm_lead\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-29e16a2d7d7b80f6e95cce528bcd1007459b9f23.jar" />
+    </item>
+    <item
+        jar="C:\Users\ASUS\AndroidstudioProjects\openerp-mobile-crm_lead\app\libs\openerp-library.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f02a0ac59b0b29c127e2165f2df81f4a5f321bd8">
+        <dex dex="C:\Users\ASUS\AndroidstudioProjects\openerp-mobile-crm_lead\app\build\intermediates\pre-dexed\debug\openerp-library-c367b6f9d3b04d36ccc1a457e8b3e2ee51a74f78.jar" />
+    </item>
+
+</items>

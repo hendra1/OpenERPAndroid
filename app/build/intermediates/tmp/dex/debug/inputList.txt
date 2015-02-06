@@ -1,0 +1,4 @@
+C:\Users\ASUS\AndroidstudioProjects\openerp-mobile-crm_lead\app\build\intermediates\classes\debug
+C:\Users\ASUS\AndroidstudioProjects\openerp-mobile-crm_lead\app\build\intermediates\pre-dexed\debug\openerp-library-c367b6f9d3b04d36ccc1a457e8b3e2ee51a74f78.jar
+C:\Users\ASUS\AndroidstudioProjects\openerp-mobile-crm_lead\app\build\intermediates\pre-dexed\debug\pull_swipe_library-39b9d197e6aa7f2e84181220ab9e2a1e47a0e74c.jar
+C:\Users\ASUS\AndroidstudioProjects\openerp-mobile-crm_lead\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-29e16a2d7d7b80f6e95cce528bcd1007459b9f23.jar

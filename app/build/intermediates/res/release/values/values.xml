@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/category.xml -->
+    <eat-comment/>
+    <string-array name="categories_array">
+        <item>Credit</item>
+        <item>Cash</item>
+        <item>Income</item>
+        <item>Sales</item>
+        <item>Transfer</item>
+    </string-array>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/base-strings.xml -->
+    <eat-comment/>
+    <string-array name="syncDataLimit">
+        <item name="30">1 month old</item>
+        <item name="60">2 months old</item>
+        <item name="90">3 months old</item>
+    </string-array>
+    <string-array name="syncDataLimitValues">
+        <item name="30">30</item>
+        <item name="60">60</item>
+        <item name="90">90</item>
+    </string-array>
+    <string-array name="syncInterval">
+        <item name="5">Every 5 minutes</item>
+        <item name="10">Every 10 minutes</item>
+        <item name="20">Every 20 minutes</item>
+        <item name="40">Every 40 minutes</item>
+        <item name="60">Every 60 minutes</item>
+        <item name="1440">Once in a day</item>
+    </string-array>
+    <string-array name="syncIntervalValues">
+        <item name="5">5</item>
+        <item name="10">10</item>
+        <item name="20">20</item>
+        <item name="40">40</item>
+        <item name="60">60</item>
+        <item name="1440">1440</item>
+    </string-array>
+    <declare-styleable name="DrawerIconView"><attr format="reference|color" name="tint"/></declare-styleable>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="card_flip_time_full">300</integer>
+    <integer name="card_flip_time_half">150</integer>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/base-strings.xml -->
+    <eat-comment/>
+    <string name="about_Company_line1">Copyright © 2004-TODAY OpenERP SA. All Rights Reserved.</string>
+    <string name="about_Company_line2">OpenERP is a trademark of the <a href="https://www.openerp.com/">OpenERP.com.</a></string>
+    <string name="about_Company_line3">Licenced under the terms of <a href="http://www.gnu.org/licenses/agpl.html/">GNU Affero General Public License</a></string>
+    <string name="about_Company_line4">For more information visit <a href="https://www.openerp.com/">OpenERP.com</a>.</string>
+    <string name="account_continue_button">Continue</string>
+    <string name="account_description">Provide your OpenERP Server URL and click on Continue button to test connection and go next step.</string>
+    <string name="account_edit_server_port">Port Number (If any)</string>
+    <string name="account_edit_server_url">Server URL</string>
+    <string name="account_login_button">Login</string>
+    <string name="account_sync_wizard_button">Continue</string>
+    <string name="account_title">Setup Your OpenERP Server</string>
+    <string name="account_user_dp">Account User Display Picture</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">OpenERP</string>
+    <string name="app_version_name">Version</string>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/base-strings.xml -->
+    <eat-comment/>
+    <string name="imgcontentDescription">OpenERP LOGO in upper portion of the screen</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_login">Login</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_new">New</string>
+    <string name="label_no">No</string>
+    <string name="label_ok">OK</string>
+    <string name="label_update_info">Update Info</string>
+    <string name="label_version">Version</string>
+    <string name="label_yes">Yes</string>
+    <string name="login_description">Select your working database and provide your username and password to access.</string>
+    <string name="login_edit_password">Password</string>
+    <string name="login_edit_username">Username</string>
+    <string name="login_select_database">Select Database</string>
+    <string name="login_title">Config Your OpenERP Login Details</string>
+    <string name="logo_description">OpenERP</string>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/pull_refresh_strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_pull_label">Pull to sync…</string>
+    <string name="pull_to_refresh_refreshing_label">Synchronizing…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/base-strings.xml -->
+    <eat-comment/>
+    <string name="str_database">Database</string>
+    <string name="str_provide_port_number">Provide your port number with URL if any.</string>
+    <string name="str_secure_connection">Secure Connection</string>
+    <string name="str_server_url">Server URL</string>
+    <string name="str_timezone">TimeZone</string>
+    <string name="str_user_login">User Login</string>
+    <string name="str_user_name">User Name</string>
+    <string name="syncwizard_description">Select your auto sync option so application will get up to-date automatically.</string>
+    <string name="syncwizard_title">Enable/Disable your Sync Settings</string>
+    <string name="title_about_us">About Us</string>
+    <string name="title_accounts">Accounts</string>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_entry_cash_flow">EntryCashFlowActivity</string>
+    <string name="title_activity_main">OpenERP</string>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/base-strings.xml -->
+    <eat-comment/>
+    <string name="title_add_account">Add Account</string>
+    <string name="title_application_settings">"Application Settings"</string>
+    <string name="title_cash_flow">Cash Transaction</string>
+    <string name="title_cash_flow_syncronize">Syncronize Data</string>
+    <string name="title_configuration">Configuration</string>
+    <string name="title_confirm">Confirm</string>
+    <string name="title_connecting">Connecting…</string>
+    <string name="title_enter_password">Enter Password</string>
+    <string name="title_general_settings">General Settings</string>
+    <string name="title_loggin_in">Logging in…</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_refresh_details">Refresh Details</string>
+    <string name="title_select_account">"Select Account"</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_setup_account">Setup Account</string>
+    <string name="title_ssl_warning">SSL Warning</string>
+    <string name="title_user_profile">OpenERP User Profile</string>
+    <string name="toast_are_you_sure_delete_account">Are you sure want to delete account ?</string>
+    <string name="toast_are_you_sure_logout">Are you sure want to logout ?</string>
+    <string name="toast_invalid_password">Invalid Password !</string>
+    <string name="toast_invalid_username_password">Invalid Username or Password !</string>
+    <string name="toast_provide_password">Provide password</string>
+    <string name="toast_provide_server_url">Provide Server URL</string>
+    <string name="toast_provide_username">Provide username</string>
+    <string name="toast_select_database">Select database</string>
+    <string name="toast_setting_saved">Setting saved.</string>
+    <string name="toast_unable_to_reach_openerp_server">Unable to reach OpenERP Server.</string>
+    <string name="untrusted_ssl_warning">The site\'s security certificate is not trusted !</string>
+    <string name="widget_company_logo">OpenERP logo</string>
+    <!-- From: file:/C:/Users/ASUS/AndroidstudioProjects/openerp-mobile-crm_lead/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/CustomActionbar</item>
+    </style>
+    <style name="CustomActionbar" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#ddebebeb</item>
+    </style>
+    <style name="Widget.PullToRefresh.ProgressBar.Horizontal.Center" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/ptr_progress_horizontal_holo_center</item>
+        <item name="android:indeterminateDrawable">@drawable/ptr_progress_indeterminate_horizontal_holo</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+</resources>

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="?android:attr/actionBarSize">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(+) Kas Masuk"
+            android:id="@+id/crmCashInButton"
+            android:layout_weight="1.40"
+            android:onClick="showFormInputIn"/>
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="(-) Kas Keluar"
+            android:id="@+id/crmCashOutButton"
+            android:onClick="showFormInputOut"/>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/crmCashFlowListView"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:clipToPadding="false">
+    </ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sinkron Data"
+        android:id="@+id/cashFlowSyncButton"
+        android:layout_gravity="center"
+        android:onClick="sync"/>
+
+
+</LinearLayout>

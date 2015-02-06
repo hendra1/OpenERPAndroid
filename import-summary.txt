@@ -1,0 +1,94 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .bzr\
+* .bzr\README
+* .bzr\branch-format
+* .bzr\branch\
+* .bzr\branch\branch.conf
+* .bzr\branch\format
+* .bzr\branch\last-revision
+* .bzr\branch\tags
+* .bzr\checkout\
+* .bzr\checkout\conflicts
+* .bzr\checkout\dirstate
+* .bzr\checkout\format
+* .bzr\checkout\merge-hashes
+* .bzr\checkout\views
+* .bzr\repository\
+* .bzr\repository\format
+* .bzr\repository\indices\
+* .bzr\repository\indices\590da39e239f6fe4de9b2799598485b2.cix
+* .bzr\repository\indices\590da39e239f6fe4de9b2799598485b2.iix
+* .bzr\repository\indices\590da39e239f6fe4de9b2799598485b2.rix
+* .bzr\repository\indices\590da39e239f6fe4de9b2799598485b2.six
+* .bzr\repository\indices\590da39e239f6fe4de9b2799598485b2.tix
+* .bzr\repository\indices\6940f3f7b6af1c20fa5dd4e411931818.cix
+* .bzr\repository\indices\6940f3f7b6af1c20fa5dd4e411931818.iix
+* .bzr\repository\indices\6940f3f7b6af1c20fa5dd4e411931818.rix
+* .bzr\repository\indices\6940f3f7b6af1c20fa5dd4e411931818.six
+* .bzr\repository\indices\6940f3f7b6af1c20fa5dd4e411931818.tix
+* .bzr\repository\indices\b60f104e05cc48d95ab8b64ce72cc47c.cix
+* .bzr\repository\indices\b60f104e05cc48d95ab8b64ce72cc47c.iix
+* .bzr\repository\indices\b60f104e05cc48d95ab8b64ce72cc47c.rix
+* .bzr\repository\indices\b60f104e05cc48d95ab8b64ce72cc47c.six
+* .bzr\repository\indices\b60f104e05cc48d95ab8b64ce72cc47c.tix
+* .bzr\repository\indices\c52c80f2774c3d98d74c2d85ed500494.cix
+* .bzr\repository\indices\c52c80f2774c3d98d74c2d85ed500494.iix
+* .bzr\repository\indices\c52c80f2774c3d98d74c2d85ed500494.rix
+* .bzr\repository\indices\c52c80f2774c3d98d74c2d85ed500494.six
+* .bzr\repository\indices\c52c80f2774c3d98d74c2d85ed500494.tix
+* .bzr\repository\pack-names
+* .bzr\repository\packs\
+* .bzr\repository\packs\590da39e239f6fe4de9b2799598485b2.pack
+* .bzr\repository\packs\6940f3f7b6af1c20fa5dd4e411931818.pack
+* .bzr\repository\packs\b60f104e05cc48d95ab8b64ce72cc47c.pack
+* .bzr\repository\packs\c52c80f2774c3d98d74c2d85ed500494.pack
+* .project~
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\openerp-library.jar => app\libs\openerp-library.jar
+* libs\pull_swipe_library.jar => app\libs\pull_swipe_library.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
